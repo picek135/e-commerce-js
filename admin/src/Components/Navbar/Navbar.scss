@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .icon{
+            font-size: 40px;
+            color: #e12200;
+        }
+        h1{
+            margin: 0;
+            font-size: 40px;
+            font-weight: bold;
+            color:#e12200;
+        }
+        p{
+            font-size: 25px;
+            font-weight: 500;
+            color: #555;
+        }
+    }
+    .profile{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        
+    }
+}
+
+@media(max-width:800px){
+    .navbar{
+        padding: 15px 30px;
+        .logo{
+            .icon{
+                font-size: 30px;
+            }
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+}
